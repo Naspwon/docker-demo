@@ -22,10 +22,10 @@ pipeline{
                 sh 'npm test'
             }
         }
-        stage('run repo'){
-            steps{
-                sh 'npm start'
-            }
-        }
+        // stage('run repo'){
+        //     steps{
+        //         sh 'npm start'
+        //     }
+        // }
     }
 }
