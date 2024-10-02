@@ -7,7 +7,7 @@ pipeline{
         stage('Clone repo'){
             steps{
                 git(
-                    url: "https://github.com/Naspwon/docker-demo.git"
+                    url: "https://github.com/Naspwon/docker-demo.git",
                     branch: "master"
                     )
             }
